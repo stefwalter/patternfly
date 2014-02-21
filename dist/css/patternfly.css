@@ -9343,12 +9343,24 @@ fieldset[disabled] .pagination > li > span.active {
   padding-right: 30px;
 }
 .sidebar-header {
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #e9e9e9;
   padding-bottom: 10.5px;
   margin: 48px 0 19px;
 }
 .sidebar-header .actions {
   margin-top: -2px;
+}
+.sidebar-pf .sidebar-header + .list-group {
+  border-top: 0;
+  margin-top: -10px;
+}
+.sidebar-pf .sidebar-header + .list-group .list-group-item {
+  background: transparent;
+  border-color: #e9e9e9;
+  padding-left: 0;
+}
+.sidebar-pf .sidebar-header + .list-group .list-group-item-heading {
+  font-size: 11px;
 }
 .sidebar-pf .nav-pills > li.active > a {
   background: #0099d3 !important;
@@ -9413,6 +9425,9 @@ fieldset[disabled] .pagination > li > span.active {
   }
   .sidebar-header-bleed-right > h2 {
     margin-right: 20px;
+  }
+  .sidebar-header-bleed-right + .list-group {
+    margin-right: -20px;
   }
   .sidebar-pf {
     background: #fafafa;
