@@ -73,6 +73,16 @@
   }
   .panel-title {
     font-size: @font-size-base;
+    > a {
+      &:before {
+        margin-left: 1px;
+        margin-right: 4px;
+      }
+      &.collapsed:before {
+        margin-left: 3px;
+        margin-right: 5px;
+      }
+    }
   }
 }
 
