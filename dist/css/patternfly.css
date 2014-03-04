@@ -9229,12 +9229,14 @@ fieldset[disabled] .pagination > li > span.active {
   font-size: 11px;
 }
 .sidebar-pf .panel-title > a:before {
+  display: inline-block;
   margin-left: 1px;
   margin-right: 4px;
+  width: 9px;
 }
 .sidebar-pf .panel-title > a.collapsed:before {
   margin-left: 3px;
-  margin-right: 5px;
+  margin-right: 2px;
 }
 @media (min-width: 767px) {
   .sidebar-header-bleed-left {
